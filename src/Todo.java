@@ -5,8 +5,8 @@ OU ID_______________: 113343170
 OU EMAIL____________: erin.c.harrington-1@ou.edu
 
 Tasks:
-1. 
-2. XXX
+1. Finished fullConstructorTest() in AnimalTest class
+2. Create tests 
 
 Estimated Time (minutes):
 1. XXX
