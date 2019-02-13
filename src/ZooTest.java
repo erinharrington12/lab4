@@ -60,4 +60,24 @@ public class ZooTest {
 
 		}
 	}
+
+	public void getCapacityTest() throws AssertException {
+
+		/**
+		 * Create Zoo object and populate with animals
+		 * 
+		 * Format of color, name, weight, height
+		 */
+		Animal a = new Animal("Green", "Chester", 350.0, 40);
+		Animal b = new Animal("Orange", "Tony", 200.5, 15);
+
+		Zoo zoo = new Zoo(3);
+		zoo.addAnimal(a); // Gorilla
+		zoo.addAnimal(b); // Tiger
+
+		// Test for capacity
+
+		Assert.assertEquals(3, zoo.getCapacity());
+	}
+
 }
